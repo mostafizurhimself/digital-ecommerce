@@ -1,4 +1,4 @@
-### Live Preview
+## Live Preview
 
 **Website**: https://emarket.mostafizur.dev/
 
@@ -6,7 +6,7 @@
 
 **User**: admin@example.com **Password**: 111111
 
-#### Getting Started
+### Getting Started
 
 If you want to run this project on your local environment, please follow these steps:
 
@@ -21,7 +21,7 @@ There are two parts of this project:
 1. **Backend**: This is the admin panel. It is a web application that is used to manage the users, customers, products, orders etc. It has a REST API that is used to communicate with the frontend.
 2. **Frontend**: This is the website. It is a web application that is used to display the products, customers, orders etc.
 
-##### Backend:
+#### Backend:
 
 To run the `backend` application, follow these steps:
 
@@ -68,7 +68,7 @@ To populate the database with dummy data, run the following command:
 php artisan db:seed
 ```
 
-##### Frontend
+#### Frontend
 
 For the frontend, cd into the `frontend` directory and run the following command.
 
