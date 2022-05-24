@@ -1,0 +1,31 @@
+// Variables
+@import 'variables';
+
+// Fonts
+@import "fonts";
+@import "../../node_modules/animate.css/animate.css";
+
+// vendors
+@import "vendors/fontawesome";
+@import "vendors/bootstrap";
+@import "vendors/pretty-checkbox";
+
+// Components
+@import "components/header";
+
+// Utils
+@import 'utils';
+
+// pages
+@import 'pages/cart';
+
+// Base
+@import 'reset';
+
+
+// Custom Properties
+:root {
+  --animate-duration: 0.4s;
+  --animate-delay: 0.4s;
+  --animate-repeat: 1;
+}

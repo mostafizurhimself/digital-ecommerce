@@ -1,0 +1,47 @@
+.custom-control-label {
+  display: inline;
+}
+
+.filter-bar {
+  top: 70px;
+  @media only screen and (max-width: 991px) {
+    top: 110px;
+  }
+}
+
+.sticky-summary {
+  position: sticky;
+  top: 116px;
+}
+
+.paypal-button:not(.paypal-button-card) {
+  @media only screen and (min-width: 150px) {
+    height: 40px;
+    min-height: 25px;
+    max-height: 55px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .modal-dialog-scrollable .modal-content {
+    max-height: calc(100vh - 10.5rem);
+  }
+}
+
+#modal-scrollable___BV_modal_outer_ {
+  position: absolute;
+  z-index: 10400 !important;
+}
+#register-modal___BV_modal_outer_ {
+  position: absolute;
+  z-index: 10400 !important;
+}
+
+.user-select-none {
+  cursor: pointer;
+}
+
+.disabledPayment {
+  pointer-events: none;
+  opacity: 0.6;
+}

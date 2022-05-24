@@ -1,0 +1,15 @@
+before_script:
+  - echo "Before script"
+  - cd /var/www/html/client/wrapstock-website/
+building:
+  stage: build
+  script:
+    - echo "Build Stage"
+    - whoami
+    - git stash
+    - git pull
+    - npm install
+    - npm run build
+    - pm2 reload Wrapstock --force
+  only:
+    - master

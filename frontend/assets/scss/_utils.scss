@@ -1,0 +1,117 @@
+.btn{
+  font-size: 14px;
+  border: 1px solid transparent;
+  outline: none;
+  box-shadow: none;
+  border-radius: 100px;
+}
+
+.btn-primary{
+  @extend .btn-primary;
+
+  // &:hover{
+  //   background-color: $primary-hover;
+  // }
+}
+
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: $primary;
+  color: $primary;
+}
+
+.btn-primary-outline:hover {
+  background-color: $primary;
+  border-color: $primary;
+  color: #fff;
+}
+
+.btn-slider {
+  background-color: rgba(0,0,0,.6);
+  color: $primary;
+  border:1px solid $primary;
+  padding: 8px 45px;
+}
+
+.btn-slider:hover {
+  background-color: $primary;
+  color: white;
+}
+
+.btn-primary.section-btn:hover{
+  border:1px solid $primary;
+  color: $primary;
+  background-color: #fff;
+}
+
+.btn-gray {
+  background-color: #ece9f0;
+}
+
+.btn-gray:hover {
+  background-color: #d8d2e0;
+}
+
+.btn-gray-outline {
+  background-color: transparent;
+  border: 1px solid #ece9f0;
+}
+
+.btn-gray-outline:hover {
+  background-color: #ece9f0;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.50em 0.85em;
+  font-size: .90em;
+  line-height: 1;
+  color: #000;
+  text-align: center;
+  font-weight:400;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 100px;
+
+}
+
+
+// Font helpers
+
+$fonts : (
+  xs: 12px,
+  sm: 14px,
+  bs: 1rem,
+  lg: 1.125rem,
+  xl : 1.25rem,
+  2xl: 1.5rem,
+  3xl: 1.875rem,
+  4xl: 2.25rem,
+  5xl: 3rem,
+  6xl: 3.75rem,
+  7xl: 4.5rem,
+  8xl: 6rem,
+  9xl: 8rem,
+);
+
+@each $name, $size in $fonts{
+  .text-#{$name} {
+    font-size: $size;
+  }
+}
+
+$weight: (
+  "extralight": 200,
+  "light": 300,
+  "normal": 400,
+  "semibold": 600,
+  "bold": 700,
+  "extrabold": 800,
+  "black": 900,
+);
+
+@each $name, $weight in $weight{
+  .font-#{$name} {
+    font-weight: $weight;
+  }
+}

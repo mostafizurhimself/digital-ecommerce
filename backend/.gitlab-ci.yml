@@ -1,0 +1,18 @@
+before_script:
+  - echo "Before script"
+  - cd /var/www/html/client/wrapstock-admin/
+building:
+  stage: build
+  script:
+    - echo "Build Stage"
+    - whoami
+    - git stash
+    - git pull
+    - composer install --no-scripts --no-interaction
+    - php artisan migrate --force
+    # - php artisan product:publish
+    - php artisan cache:clear
+    - php artisan config:clear
+  only:
+    - master
+

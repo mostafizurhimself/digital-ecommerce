@@ -1,0 +1,45 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@inertiajs/inertia": "^0.8.4",
+        "@inertiajs/inertia-vue3": "^0.3.5",
+        "@inertiajs/progress": "^0.2.4",
+        "@tailwindcss/forms": "^0.2.1",
+        "@tailwindcss/typography": "^0.3.0",
+        "@vue/compiler-sfc": "^3.0.5",
+        "axios": "^0.21",
+        "browser-sync": "^2.26.14",
+        "browser-sync-webpack-plugin": "^2.3.0",
+        "laravel-mix": "^6.0.25",
+        "lodash": "^4.17.21",
+        "postcss": "^8.3.1",
+        "postcss-import": "^12.0.1",
+        "resolve-url-loader": "^3.1.2",
+        "sass": "^1.32.13",
+        "tailwindcss": "^2.2.4",
+        "vue": "^3.0.5",
+        "vue-loader": "^16.1.2"
+    },
+    "dependencies": {
+        "@vueform/multiselect": "^2.0.0",
+        "@vueup/vue-quill": "^1.0.0-beta.7",
+        "cross-env": "^7.0.3",
+        "sass-loader": "^10.2.0",
+        "simplebar-vue": "^1.6.0",
+        "vue-next-select": "^2.6.0",
+        "vue-sweetalert2": "^4.3.1",
+        "vue-toastification": "^2.0.0-rc.1",
+        "vue2-daterange-picker": "^0.6.5",
+        "vue3-datepicker": "^0.2.5",
+        "vue3-tabs-component": "^1.0.2"
+    }
+}

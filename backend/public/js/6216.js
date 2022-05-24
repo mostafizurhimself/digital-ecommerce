@@ -1,0 +1,1 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[6216],{6216:(a,e,d)=>{"use strict";d.r(e),d.d(e,{default:()=>o});var c=d(5166),t=(0,c.withScopeId)("data-v-1d41daaa")((function(a,e,d,t,n,o){return(0,c.openBlock)(),(0,c.createBlock)("div",null," User Show Page ")}));const n={};n.render=t,n.__scopeId="data-v-1d41daaa";const o=n}}]);

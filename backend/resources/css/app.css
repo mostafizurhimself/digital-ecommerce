@@ -1,0 +1,100 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* html{
+    overflow-x: hidden;
+} */
+
+.overlay {
+	@apply fixed h-screen w-full bg-black opacity-50 z-10;
+}
+
+.btn {
+	@apply inline-flex items-center px-4 py-2 border border-transparent rounded-md font-semibold text-xs uppercase tracking-widest disabled:opacity-25 transition;
+}
+
+.btn-primary {
+	@apply bg-primary-500 text-white;
+}
+
+.btn-primary:hover {
+	@apply bg-primary-700;
+}
+
+.btn-primary:focus {
+	@apply outline-none ring ring-primary-300 border-primary-900;
+}
+
+.btn-success {
+	@apply bg-green-500 text-white;
+}
+
+.btn-success:hover {
+	@apply bg-green-700;
+}
+
+.btn-success:focus {
+	@apply outline-none ring ring-green-300 border-green-900;
+}
+
+.btn-info {
+	@apply bg-indigo-500 text-white;
+}
+
+.btn-info:hover {
+	@apply bg-indigo-700;
+}
+
+.btn-info:focus {
+	@apply outline-none ring ring-indigo-300 border-indigo-900;
+}
+
+.btn-purple {
+	@apply bg-purple-500 text-white;
+}
+
+.btn-purple:hover {
+	@apply bg-purple-700;
+}
+
+.btn-purple:focus {
+	@apply outline-none ring ring-purple-300 border-purple-900;
+}
+
+.btn-warning {
+	@apply bg-yellow-500 text-white;
+}
+
+.btn-warning:hover {
+	@apply bg-yellow-700;
+}
+
+.btn-warning:focus {
+	@apply outline-none ring ring-yellow-300 border-yellow-900;
+}
+
+.btn-danger {
+	@apply bg-red-500 text-white;
+}
+
+.btn-danger:hover {
+	@apply bg-red-700;
+}
+
+.btn-danger:focus {
+	@apply outline-none ring ring-red-300 border-red-900;
+}
+
+.btn-secondary {
+	@apply bg-gray-300;
+}
+
+.btn-secondary:hover {
+	@apply bg-gray-400;
+}
+
+.badge {
+	@apply inline-flex items-center justify-center px-3 py-1 text-xs uppercase font-bold leading-none text-white rounded-full;
+}
+

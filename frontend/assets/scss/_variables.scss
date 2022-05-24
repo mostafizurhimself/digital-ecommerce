@@ -1,0 +1,48 @@
+$primary: #d4774c;
+$primary-light: #db4305;
+$secondary: #149a98;
+$black: #000;
+
+.text-dark-gray {
+  color: #9a9a9a;
+}
+
+.bg-black {
+  background: $black;
+}
+
+.bg-gray {
+  background: #e6e6e6;
+}
+
+.bg-gray:hover {
+  background: #8c8c8c;
+  color: #e6e6e6;
+}
+
+.bg-cream {
+  background: #faf8fa;
+}
+
+.border-cream {
+  border: 1px solid #efefef !important;
+}
+
+$spacer: 1rem;
+$spacers: (
+  6: (
+    $spacer * 4
+  ),
+  7: (
+    $spacer * 5
+  ),
+  8: (
+    $spacer * 6
+  ),
+  9: (
+    $spacer * 7
+  ),
+  10: (
+    $spacer * 8
+  )
+);

@@ -1,0 +1,77 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Blinker", sans-serif;
+  // overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p {
+  margin: 0;
+}
+
+.container,
+.container-sm {
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+}
+
+.container,
+.container-md,
+.container-sm {
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm {
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+}
+
+.container {
+  max-width: 1620px;
+}
+
+.form-control {
+  min-width: 100%;
+}
+
+.form-control:focus {
+  border-color: #c85007 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.form-check-input {
+  color: #c85007 !important;
+  background: #c85007 !important;
+}
+
+.btn {
+  &:focus,
+  &:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+// bootstrap vue tab
+.tab-title-class {
+  text-transform: uppercase !important;
+  border-bottom: 2px solid $primary;
+}
+
+body.modal-open {
+  overflow: hidden;
+}

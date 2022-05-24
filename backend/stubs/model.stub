@@ -1,0 +1,11 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\Traits\Trashed;
+use Illuminate\Database\Eloquent\SoftDeletes;
+
+class {{ class }} extends Model
+{
+    use SoftDeletes, Trashed;
+}
