@@ -1,11 +1,3 @@
-## Live Preview
-
-**Website**: https://emarket.mostafizur.dev/
-
-**Admin**: https://emarket-admin.mostafizur.dev
-
-**User**: admin@example.com **Password**: 111111
-
 ### Getting Started
 
 If you want to run this project on your local environment, please follow these steps:
